@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin | Fazal Hossen Pranto</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <!-- Password gate -->
+  <div class="gate" id="gate">
+    <form class="gate-card" id="gateForm" autocomplete="off">
+      <div class="gate-logo" aria-hidden="true">FP</div>
+      <h1>Admin panel</h1>
+      <p>Enter the password to edit your website.</p>
+      <label class="sr-only" for="gatePw">Password</label>
+      <input id="gatePw" type="password" placeholder="Password" autocomplete="current-password" required>
+      <button class="a-btn primary" type="submit">Unlock</button>
+      <p class="gate-err" id="gateErr" role="alert"></p>
+    </form>
+  </div>
+
+  <!-- App -->
+  <div class="app" id="app" hidden>
+    <header class="a-top">
+      <div class="a-title"><strong>Website admin</strong><span id="status" class="status">Loading…</span></div>
+      <div class="a-actions">
+        <button class="a-btn ghost" id="btnPreview" type="button">Live preview</button>
+        <button class="a-btn primary" id="btnExport" type="button">Export content.json</button>
+        <button class="a-btn ghost" id="btnLock" type="button">Lock</button>
+      </div>
+    </header>
+    <div class="a-main">
+      <nav class="a-tabs" id="tabs" aria-label="Sections"></nav>
+      <section class="a-panel" id="panel" aria-live="polite"></section>
+      <aside class="a-preview" id="preview">
+        <div class="a-pv-bar">
+          <div class="seg" role="group" aria-label="Preview size">
+            <button type="button" data-dev="desktop" class="on">Desktop</button>
+            <button type="button" data-dev="phone">Phone</button>
+          </div>
+          <button type="button" class="a-btn ghost small" id="pvReload">Reload</button>
+          <button type="button" class="a-btn ghost small pv-close" id="pvClose">Close</button>
+        </div>
+        <div class="a-pv-stage" id="pvStage"><iframe id="pvFrame" title="Live preview of the website" src="index.html?preview=1"></iframe></div>
+      </aside>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="content.fallback.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

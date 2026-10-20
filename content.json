@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "brand": {
+    "name": "Fazal Hossen Pranto",
+    "role": "Video Editor, Content Creator & Educationist",
+    "logoText": "Fazal Hossen Pranto"
+  },
+  "theme": {
+    "accent": "#2f6bff",
+    "accent2": "#22d3ee",
+    "bg": "#000000",
+    "glow": 100,
+    "radius": 24,
+    "fontDisplay": "Helvetica",
+    "fontBody": "Inter",
+    "defaultMode": "dark",
+    "themeToggle": true,
+    "mascot": true
+  },
+  "hero": {
+    "tagVisible": true,
+    "tag": "Video Editor, Content Creator & Educationist",
+    "line1": "Making Learning",
+    "line2": "Worth Watching",
+    "text": "Editing, storytelling, and educational design in one practice. I make video that is well crafted, easy to follow, and built to inform.",
+    "primaryBtn": "View My Work",
+    "ghostBtn": "Book a Call",
+    "portrait": "assets/portrait.webp",
+    "portraitAlt": "Portrait of Fazal Hossen Pranto",
+    "statsVisible": false,
+    "stats": [
+      { "number": "", "suffix": "+", "label": "" },
+      { "number": "", "suffix": "+", "label": "" },
+      { "number": "", "suffix": "+", "label": "" }
+    ],
+    "trustVisible": false,
+    "trustText": "",
+    "trustAvatars": []
+  },
+  "sections": [
+    { "id": "marquee", "visible": true, "nav": "", "eyebrow": "", "title": "", "text": "" },
+    { "id": "showcase", "visible": true, "nav": "Showcase", "eyebrow": "Showcase", "title": "Watch the work", "text": "A featured video that shows how I edit and tell a story." },
+    { "id": "work", "visible": true, "nav": "Work", "eyebrow": "Work", "title": "Selected videos", "text": "Short-form and long-form videos I have worked on." },
+    { "id": "services", "visible": true, "nav": "Services", "eyebrow": "Services", "title": "What I do best", "text": "Editing, content, and educational know-how in one place." },
+    { "id": "process", "visible": true, "nav": "Process", "eyebrow": "Process", "title": "How it works", "text": "A simple four-step flow from first message to final delivery." },
+    { "id": "testimonials", "visible": false, "nav": "", "eyebrow": "", "title": "What people are saying", "text": "" },
+    { "id": "about", "visible": true, "nav": "About", "eyebrow": "About Me", "title": "Editing with an educator's mind", "text": "" },
+    { "id": "contact", "visible": true, "nav": "Contact", "eyebrow": "Contact", "title": "Let's make something worth watching", "text": "Tell me about your project and we will take it from there." }
+  ],
+  "marquee": {
+    "items": ["Video Editing", "Content Creation", "Educational Storytelling", "Short-Form Video", "Long-Form Video", "Motion & Pacing", "Educational Design", "Clear Communication"]
+  },
+  "showcase": { "url": "https://youtu.be/zwUD0JmXC7I" },
+  "work": {
+    "tabShorts": "Shorts",
+    "tabVideos": "Videos",
+    "shorts": [
+      { "url": "https://youtube.com/shorts/s6Z6HCuCj5c" },
+      { "url": "https://youtube.com/shorts/y8LY6Q1xyXI" }
+    ],
+    "videos": []
+  },
+  "services": {
+    "items": [
+      { "icon": "film", "title": "Video Editing", "text": "Clean, well-paced edits for YouTube, Reels, and long-form content." },
+      { "icon": "phone", "title": "Short-Form Content", "text": "Vertical videos made to hold attention from the first second." },
+      { "icon": "cap", "title": "Educational Video Production", "text": "Lessons and explainers shaped by how people learn." },
+      { "icon": "target", "title": "Content Strategy", "text": "Planning formats, series, and structure so your content stays consistent." },
+      { "icon": "sparkles", "title": "Motion & Visual Polish", "text": "Titles, transitions, and graphics that support the message." },
+      { "icon": "users", "title": "Educational Consulting", "text": "Aligning learning content and activities with educational theory." }
+    ]
+  },
+  "process": {
+    "items": [
+      { "icon": "chat", "title": "Discover", "text": "We talk through your goals, audience, and the message you want to land." },
+      { "icon": "layout", "title": "Plan", "text": "I outline the structure, format, and style before any editing begins." },
+      { "icon": "scissors", "title": "Create", "text": "I edit and polish the video, with a review round for your feedback." },
+      { "icon": "check", "title": "Deliver", "text": "You receive the final files, optimized for the platforms you publish on." }
+    ]
+  },
+  "testimonials": { "items": [] },
+  "about": {
+    "photo": "assets/portrait.webp",
+    "photoAlt": "Fazal Hossen Pranto",
+    "paragraphs": [
+      "I'm Fazal Hossen Pranto, a video editor and content creator based in Bangladesh. I make video that is clear, well paced, and built to hold attention.",
+      "I'm also a student of education, studying B.Ed in Educational Administration. That background shapes how I structure ideas, so the people watching actually understand and remember them.",
+      "I create Bangla educational content for YouTube and Instagram Reels, including the series \"How We Learn?\", which explains Educational Psychology for university students."
+    ],
+    "skills": ["Video Editing", "Short-Form Content", "Storytelling", "Pacing & Rhythm", "Educational Design", "Content Strategy"],
+    "tags": ["Video Editor", "Content Creator", "Educationist"],
+    "socials": [
+      { "label": "YouTube", "icon": "youtube", "url": "https://www.youtube.com/@FazalHossen26" },
+      { "label": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/prantosinsights/" },
+      { "label": "Facebook", "icon": "facebook", "url": "https://web.facebook.com/profile.php?id=61590537451216" },
+      { "label": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/in/fazal-hossen-pranto-11a2aa298" }
+    ]
+  },
+  "contact": {
+    "bookBtn": "Book a Call",
+    "email": "fazalhossen48@gmail.com",
+    "phone": "+8801612441826",
+    "phoneDisplay": "+880 1612-441826",
+    "whatsapp": "8801612441826",
+    "messenger": "",
+    "instagramDm": ""
+  },
+  "booking": {
+    "title": "Book a call",
+    "subtitle": "Write a short note about your project. It opens in WhatsApp so you can send it straight to me.",
+    "message": "Hi, I came across your work and would like to discuss a project. When are you available for a quick call?",
+    "hint": "You can edit the message above before sending."
+  },
+  "footer": {
+    "tagline": "Video Editor, Content Creator & Educationist",
+    "copyright": "© {year} Fazal Hossen Pranto. All rights reserved."
+  }
+}
